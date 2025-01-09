@@ -1,14 +1,17 @@
 **HealthMatrix- Predicting Weight Change Using Diet Analysis**
 
 
+  ![weight](https://github.com/user-attachments/assets/1e4f3c02-7784-416c-aac7-0a86f77129ef)
+
+
 analyzing various factors that influence weight change using a multilinear regression model. 
-Our dataset contains information relating to diet, physical activity and various lifestyle habits that are known to influence weight fluctuations.
+Our dataset contains information relating to diet, physical activity, and various lifestyle habits that are known to influence weight fluctuations.
 Through our analysis, we hope to identify what factors should be limited to prevent weight gain, and what factors should be encouraged to promote weight loss.
 Through this analysis, we hope to provide insight and various suggestions as to how to properly manage weight from both individual and public health perspectives. 
-Obesity has become an extremely important topic in recent years, causing more health problems than we have ever seen before1. Our main objective will be to predict weight changes based on these lifestyle and
-dietary variables. Through the use of our multilinear regression model, we will identify the significant variables that influence weight change, eliminate insignificant variables, resulting in a consistent and 
-reliable framework to determine weight change. Other studies in this area identify lifestyle habits such as caloric intake, physical activity and quantity of sleep as important factors2. We expect our analysis to 
-suggest that a caloric deficit contributes to weight gain, and vice versa, as well as higher physical activity level, quality sleep, and lower stress levels to contribute positively to weight loss. Duration (in weeks) 
+Obesity has become an extremely important topic in recent years, causing more health problems than we have ever seen before. Our main objective will be to predict weight changes based on these lifestyle and
+dietary variables. Through the use of our multilinear regression model, we will identify the significant variables that influence weight change, and eliminate insignificant variables, resulting in a consistent and 
+reliable framework to determine weight change. Other studies in this area identify lifestyle habits such as caloric intake, physical activity, and quantity of sleep as important factors. We expect our analysis to 
+suggest that a caloric deficit contributes to weight gain, and vice versa, as well as higher physical activity levels, quality sleep, and lower stress levels, to contribute positively to weight loss. Duration (in weeks) 
 will also be an important factor, but could prove to be insignificant depending on how well each participant scores in the other areas.
 
 
@@ -16,7 +19,7 @@ will also be an important factor, but could prove to be insignificant depending 
 Findings show the large role stress levels and sleep quality play on weight change, particularly
 how poor sleep and elevated stress levels have a more pronounced impact. Participants from this
 study tended to experience more weight loss when connected with poor sleep. While weight loss tended 
-to display a wider range for stress levels, we observed much consistent higher weight loss for the 
+to display a wider range for stress levels, we observed much consistently higher weight loss for the 
 highest stress levels. These results demonstrate how both physical and mental health causes difficulties when it comes to weight management.
 Although our combined model provides the most comprehensive result, it still poses challenges such as with multicollinearity as well as unmet regression assumptions causing limited explanation when it comes to our quantitative predictors. Regardless, after refining the model we should have statistical significance. Despite the fact that some assumptions were not met, and could not be corrected with transformations, 
 
